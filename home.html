@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Locski - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="welcomeContainer">
+    <h1>Welcome to Locski!</h1>
+    <button onclick="showDashboard()">OK</button>
+</div>
+
+<div class="container" id="dashboard" style="display:none; text-align:left;">
+    <h2>Profile Details</h2>
+    <p><strong>Name:</strong> <span id="userName"></span></p>
+    <p><strong>Skills Offered:</strong> <span id="userOffered"></span></p>
+    <p><strong>Skills Needed:</strong> <span id="userNeeded"></span></p>
+    <button onclick="showDashboard()">OK</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

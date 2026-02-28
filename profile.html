@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Locski - Skill Exchange</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Locski</h1>
+    <p class="subtitle">Create Your Skill Profile</p>
+
+    <label>Your Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <label>Do you have skills to offer?</label>
+    <select id="haveSkills">
+        <option value="">Select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+
+    <!-- Skills You Offer -->
+    <div id="offerSection" class="section">
+        <h3>Skills You Offer</h3>
+        <div class="skills-grid">
+
+            <label><input type="checkbox" value="Web Development"> Web Development</label>
+            <label><input type="checkbox" value="App Development"> App Development</label>
+            <label><input type="checkbox" value="Graphic Design"> Graphic Design</label>
+            <label><input type="checkbox" value="UI/UX Design"> UI/UX Design</label>
+            <label><input type="checkbox" value="Video Editing"> Video Editing</label>
+            <label><input type="checkbox" value="Photography"> Photography</label>
+            <label><input type="checkbox" value="Content Writing"> Content Writing</label>
+            <label><input type="checkbox" value="Digital Marketing"> Digital Marketing</label>
+            <label><input type="checkbox" value="SEO"> SEO</label>
+            <label><input type="checkbox" value="Python"> Python</label>
+            <label><input type="checkbox" value="Java"> Java</label>
+            <label><input type="checkbox" value="C++"> C++</label>
+            <label><input type="checkbox" value="Public Speaking"> Public Speaking</label>
+            <label><input type="checkbox" value="Teaching"> Teaching</label>
+            <label><input type="checkbox" value="Cooking"> Cooking</label>
+            <label><input type="checkbox" value="Fitness Training"> Fitness Training</label>
+            <label><input type="checkbox" value="Music Production"> Music Production</label>
+            <label><input type="checkbox" value="Guitar"> Guitar</label>
+            <label><input type="checkbox" value="Piano"> Piano</label>
+            <label><input type="checkbox" value="Animation"> Animation</label>
+
+        </div>
+    </div>
+
+    <!-- Skills You Need -->
+    <div id="needSection" class="section">
+        <h3>Skills You Need</h3>
+        <div class="skills-grid">
+
+            <label><input type="checkbox" value="Math Help"> Math Help</label>
+            <label><input type="checkbox" value="Science Help"> Science Help</label>
+            <label><input type="checkbox" value="English Speaking"> English Speaking</label>
+            <label><input type="checkbox" value="Resume Building"> Resume Building</label>
+            <label><input type="checkbox" value="Interview Prep"> Interview Prep</label>
+            <label><input type="checkbox" value="Tech Support"> Tech Support</label>
+            <label><input type="checkbox" value="Marketing Help"> Marketing Help</label>
+            <label><input type="checkbox" value="Video Editing Help"> Video Editing Help</label>
+            <label><input type="checkbox" value="Website Design Help"> Website Design Help</label>
+            <label><input type="checkbox" value="Fitness Coaching"> Fitness Coaching</label>
+            <label><input type="checkbox" value="Language Learning"> Language Learning</label>
+            <label><input type="checkbox" value="Photography Editing"> Photography Editing</label>
+            <label><input type="checkbox" value="Time Management"> Time Management</label>
+            <label><input type="checkbox" value="Business Advice"> Business Advice</label>
+            <label><input type="checkbox" value="Startup Guidance"> Startup Guidance</label>
+
+        </div>
+    </div>
+
+    <button onclick="createProfile()">Create Profile</button>
+
+    <p id="error"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

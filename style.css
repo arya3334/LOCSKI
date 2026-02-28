@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1f2937, #3b82f6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: #1f2937;
+}
+
+.subtitle {
+    margin-bottom: 25px;
+    color: #6b7280;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #3b82f6;
+    outline: none;
+}
+
+.section {
+    display: none;
+    margin-top: 20px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.skills-grid label {
+    background: #f3f4f6;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #e5e7eb;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.skills-grid input {
+    display: none;
+}
+
+.skills-grid label:hover {
+    background: #e0e7ff;
+}
+
+.skills-grid label:has(input:checked) {
+    background: #3b82f6;
+    color: white;
+    border: 1px solid #3b82f6;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #3b82f6, #6366f1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+#error {
+    color: red;
+    margin-top: 10px;
+}
