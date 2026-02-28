@@ -78,6 +78,7 @@ Users start at the Login Page, enter credentials, and are redirected to the Prof
 The video shows " Locski" is a web-based platform that connects people in a local community to exchange skills without using money. Users start by logging in, then create a profile where they enter their name, select skills they can offer, and skills they want to learn. Based on their inputs, the platform dynamically shows the relevant skill sections. Once the profile is created, users reach the home dashboard where they can see their details and track their skills. All data is stored locally in the browser, making the experience fast, interactive, and easy to use.
 
 Percentage of AI-generated code: 40%
+
 **Human Contributions:**
 - Architecture design and planning
 - Custom business logic implementation
