@@ -13,7 +13,7 @@
 - Member 2: [Name] - [College]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+(https://arya3334.github.io/LOCSKI/)
 
 ### Project Description
 [2-3 lines about what your project does]
