@@ -2,80 +2,47 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+#LOCSKI 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name:Medusa
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Arya Bino- MES College of Engineering and Technology,Ernakulam
+- Member 2: Khajal P.A-MES College of Engineering and Technology,Ernakulam
 
 ### Hosted Project Link
 (https://arya3334.github.io/LOCSKI/)
 
 ### Project Description
-[2-3 lines about what your project does]
+Locski is a web-based platform that allows people in a local community to exchange skills without money. Users can offer skills they have and request skills they want to learn.
 
 ### The Problem statement
-[What problem are you solving?]
+Many people want to learn new skills but face high costs and limited access to courses or workshops. At the same time, people with skills often have no easy way to share their knowledge locally. Communities lack a platform to connect skill seekers with skill providers, making learning and collaboration difficult.
 
 ### The Solution
-[How are you solving it?]
+Locski solves this problem by providing a free, local, web-based platform where users can offer skills they have and request skills they want to learn. By connecting skill seekers with skill providers in the same community, it enables peer-to-peer learning, removes financial barriers, and encourages collaboration through a simple, interactive dashboard.
 
----
 
 ## Technical Details
 
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
-
+- Languages used: HTML,CSS,Javascript
+- Tools used: VS Code-for coding
+              web browser-to run and test the project
+              Chatgpt-for guidance,project planning and debugging
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
-
----
-
-## Implementation
-
-### For Software:
-
-#### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
-
-#### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
+1.Login Page – Allows users to enter email and password to access the platform.
+2.Profile Creation – Users can enter their name, select skills they offer, and skills they need. Includes checkboxes and optional input for custom skills.
+3.Local Data Storage – User profiles are saved in the browser using localStorage so their information is available on the dashboard.
+4.Home Dashboard – Displays a welcome message, user details, and their selected skills after profile creation.
+5.Interactive UI – Sections show/hide dynamically based on user choices, with colorful, vibrant styling.
+6.Logout Functionality – Users can log out and return to the login page.
 
 ## Project Documentation
 
@@ -83,338 +50,44 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="746" height="422" alt="login page" src="https://github.com/user-attachments/assets/5f4d12af-e6bc-4322-b1f5-1a78dda5cc17" />
+Login Page – Secure access to Locski before creating your profile.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="484" height="203" alt="profile page1" src="https://github.com/user-attachments/assets/4b8f83a8-4726-4236-bc93-f70fee73ca78" />
+Profile Page – Users enter their name, select skills they offer, and skills they need to create their personalized profile.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-#### Diagrams
+<img width="470" height="413" alt="profile page2" src="https://github.com/user-attachments/assets/43251f00-f308-4358-a3d9-0af4a0f4b4fc" />
+Dynamic Skill Selection – If the user has skills to offer, both ‘Skills Offered’ and ‘Skills Needed’ sections are displayed; if not, only ‘Skills Needed’ is shown
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
+![WhatsApp Image 2026-02-28 at 5 22 16 PM](https://github.com/user-attachments/assets/2bb00f22-8eaa-4b61-9902-c6910732f486)
+Locski is a frontend-only web app built with HTML, CSS, and JavaScript. Users log in, create a profile by entering their name and selecting skills they offer or need, and then view their personalized Home Dashboard. Profile data is stored in localStorage and dynamically displayed on the dashboard. The system emphasizes smooth data flow, interactive forms, and client-side storage for a lightweight, responsive experience.
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+![WhatsApp Image 2026-02-28 at 5 18 49 PM](https://github.com/user-attachments/assets/3187b9b1-1b95-4539-8a83-27d1420f7d24)
+Users start at the Login Page, enter credentials, and are redirected to the Profile Creation page. Here, they provide their name and select skills they offer or need — dynamically showing or hiding sections based on their input. Once the profile is created, the data is saved in localStorage and displayed on the Home Dashboard with a personalized welcome and skill details.
 
----
 
-### For Hardware:
 
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
-
-## Additional Documentation
-
-### For Web Projects with Backend:
-
-#### API Documentation
-
-**Base URL:** `https://api.yourproject.com`
-
-##### Endpoints
-
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**POST /api/endpoint**
-- **Description:** [What it does]
-- **Request Body:**
-```json
-{
-  "field1": "value1",
-  "field2": "value2"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "message": "Operation completed"
-}
-```
-
-[Add more endpoints as needed...]
-
----
-
-### For Mobile Apps:
-
-#### App Flow Diagram
-
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
-
-#### Installation Guide
-
-**For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
-
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
-
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
-
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
-
----
-
-### For Hardware Projects:
-
-#### Bill of Materials (BOM)
-
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
-
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
-
-### For Scripts/CLI Tools:
-
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
-
-#### Demo Output
-
-**Example 1: Basic Processing**
-
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
-
-**Command:**
-```bash
-python script.py sample.txt
-```
-
-**Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
-
-**Example 2: Advanced Usage**
-
-**Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
-```
-
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
-
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
-
----
 
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+![locski 2 0](https://github.com/user-attachments/assets/d88352b4-e78f-4497-9951-c3bc1f3852d8)
+The video shows " Locski" is a web-based platform that connects people in a local community to exchange skills without using money. Users start by logging in, then create a profile where they enter their name, select skills they can offer, and skills they want to learn. Based on their inputs, the platform dynamically shows the relevant skill sections. Once the profile is created, users reach the home dashboard where they can see their details and track their skills. All data is stored locally in the browser, making the experience fast, interactive, and easy to use.
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
-
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
-
----
-
-## AI Tools Used (Optional - For Transparency Bonus)
-
-If you used AI tools during development, document them here for transparency:
-
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
-
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
-
-**Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
-
-**Percentage of AI-generated code:** [Approximately X%]
-
+Percentage of AI-generated code: 40%
 **Human Contributions:**
 - Architecture design and planning
 - Custom business logic implementation
 - Integration and testing
-- UI/UX design decisions
-
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
-
----
+-Design
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
-
----
-
-## License
-
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
-
-**Common License Options:**
-- MIT License (Permissive, widely used)
-- Apache 2.0 (Permissive with patent grant)
-- GPL v3 (Copyleft, requires derivative works to be open source)
-
----
+- Arya – Led the front-end development, including creating the login page, profile page, and home dashboard. Worked on integrating user interactions, validations, and dynamic skill selections. Also contributed to the styling and overall user interface design.
+- Khajal – Assisted with JavaScript functionality for profile creation and skill management. Helped design the home page dashboard and localStorage integration. Contributed to testing, debugging, and improving the overall user experience.
+  
 
 Made with ❤️ at TinkerHub
